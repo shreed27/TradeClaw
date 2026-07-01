@@ -1,9 +1,22 @@
 from __future__ import annotations
 import os, json, time
-from typing import List, Optional
+from typing import Any, Dict, List, Optional
+
+from finclaw.core.quant import QuantBrain
+
 
 class Agent:
-    def __init__(self, id: str, name: str, role: str, bus, llm, persona_file: str, memory_folder: str, weight: float = 1.0):
+    def __init__(
+        self,
+        id: str,
+        name: str,
+        role: str,
+        bus,
+        llm,
+        persona_file: str,
+        memory_folder: str,
+        weight: float = 1.0,
+    ):
         self.id = id
         self.name = name
         self.role = role
@@ -16,14 +29,15 @@ class Agent:
         self.memory: List[dict] = []
         self.inbox: List[dict] = []
         self.memory_file = os.path.join(memory_folder, f"{id}_memory.json")
+        self.quant: Optional[QuantBrain] = None
         self._load_memory()
         self._load_persona()
 
-    def _load_persona(self):
+    def _load_persona(self) -> None:
         with open(self.persona_file, "r", encoding="utf-8") as f:
             self.persona = f.read().strip()
 
-    def _load_memory(self):
+    def _load_memory(self) -> None:
         if os.path.exists(self.memory_file):
             try:
                 with open(self.memory_file, "r", encoding="utf-8") as f:
@@ -31,13 +45,13 @@ class Agent:
             except Exception:
                 self.memory = []
 
-    def save_memory(self):
+    def save_memory(self) -> None:
         os.makedirs(self.memory_folder, exist_ok=True)
         data = {"weight": self.weight, "history": self.memory, "last_seen": time.time()}
         with open(self.memory_file, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2)
 
-    def post(self, msg_type: str, payload: dict, to: Optional[str] = None):
+    def post(self, msg_type: str, payload: dict, to: Optional[str] = None) -> None:
         if to:
             self.bus.dm(self.id, to, msg_type, {"from": self.name, "text": payload["text"]})
         else:
@@ -60,3 +74,8 @@ class Agent:
         prompt += "Respond as yourself in 1-3 sentences max."
         response_text = self.llm(prompt)
         return {"agent_id": self.id, "name": self.name, "text": response_text, "timestamp": time.time()}
+
+    def digest(self, scenario: Dict[str, Any]) -> Dict[str, Any] | None:
+        if self.id != "a06" or self.quant is None:
+            return None
+        return self.quant.backtest_scenario(scenario)
