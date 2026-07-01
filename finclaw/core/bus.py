@@ -1,7 +1,6 @@
 from __future__ import annotations
-import time, uuid, threading
-from typing import Any, Callable
-
+import time, threading
+from typing import Any
 
 class MessageBus:
     def __init__(self):
@@ -13,8 +12,7 @@ class MessageBus:
         self.agents[agent.id] = agent
 
     def broadcast(self, sender_id: str, msg_type: str, payload: dict):
-        msg = {"from": sender_id, "to": "ALL", "type": msg_type, "payload": payload,
-               "ts": time.time()}
+        msg = {"from": sender_id, "to": "ALL", "type": msg_type, "payload": payload, "ts": time.time()}
         with self._lock:
             self._history.append(msg)
         for aid, agent in self.agents.items():
@@ -22,8 +20,7 @@ class MessageBus:
                 agent.inbox.append(msg)
 
     def dm(self, sender_id: str, receiver_id: str, msg_type: str, payload: dict):
-        msg = {"from": sender_id, "to": receiver_id, "type": msg_type, "payload": payload,
-               "ts": time.time()}
+        msg = {"from": sender_id, "to": receiver_id, "type": msg_type, "payload": payload, "ts": time.time()}
         with self._lock:
             self._history.append(msg)
         if receiver_id in self.agents:
