@@ -6,7 +6,7 @@ from typing import Any, Callable
 class MessageBus:
     def __init__(self):
         self.agents: dict[str, Any] = {}
-        self.history: list[dict[str, Any]] = []
+        self._history: list[dict[str, Any]] = []
         self._lock = threading.Lock()
 
     def register(self, agent: Any) -> None:
@@ -16,7 +16,7 @@ class MessageBus:
         msg = {"from": sender_id, "to": "ALL", "type": msg_type, "payload": payload,
                "ts": time.time()}
         with self._lock:
-            self.history.append(msg)
+            self._history.append(msg)
         for aid, agent in self.agents.items():
             if aid != sender_id:
                 agent.inbox.append(msg)
@@ -25,13 +25,13 @@ class MessageBus:
         msg = {"from": sender_id, "to": receiver_id, "type": msg_type, "payload": payload,
                "ts": time.time()}
         with self._lock:
-            self.history.append(msg)
+            self._history.append(msg)
         if receiver_id in self.agents:
             self.agents[receiver_id].inbox.append(msg)
 
     def history(self) -> list[dict[str, Any]]:
-        return list(self.history)
+        return list(self._history)
 
     def clear(self) -> None:
         with self._lock:
-            self.history.clear()
+            self._history.clear()
