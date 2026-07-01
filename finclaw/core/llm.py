@@ -1,5 +1,7 @@
 from __future__ import annotations
-from typing import Callable
+import math
+import random
+from typing import Callable, Dict, List
 
 
 def _extract_name(prompt: str) -> str:
@@ -13,8 +15,8 @@ def _extract_name(prompt: str) -> str:
 
 
 class MockLLM:
-    def __init__(self):
-        self.pools = {
+    def __init__(self) -> None:
+        self.pools: Dict[str, List[str]] = {
             "Satoshi Nakamoto": [
                 "The on-chain data is screaming. Delta is collapsing ATM while IV is still bid. I'm leaning short gamma here.",
                 "Volume profile shows nodes at support/resistance. The chain distribution is asymmetric.",
@@ -65,6 +67,9 @@ class MockLLM:
             "I'm monitoring the situation. Awaiting clearer setup before committing.",
             "Neutral stance. Data is mixed; no sharp edge detected right now.",
         ]
+
+    def register(self, name: str, lines: List[str]) -> None:
+        self.pools[name] = lines
 
     def __call__(self, prompt: str) -> str:
         name = _extract_name(prompt).strip()
