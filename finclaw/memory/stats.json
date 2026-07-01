@@ -1,0 +1,47 @@
+{
+  "boss": {
+    "wins": 0,
+    "losses": 20,
+    "total": 20
+  },
+  "a02": {
+    "wins": 0,
+    "losses": 20,
+    "total": 20
+  },
+  "a03": {
+    "wins": 0,
+    "losses": 20,
+    "total": 20
+  },
+  "a04": {
+    "wins": 0,
+    "losses": 20,
+    "total": 20
+  },
+  "a05": {
+    "wins": 0,
+    "losses": 20,
+    "total": 20
+  },
+  "a06": {
+    "wins": 0,
+    "losses": 20,
+    "total": 20
+  },
+  "a07": {
+    "wins": 0,
+    "losses": 20,
+    "total": 20
+  },
+  "a08": {
+    "wins": 0,
+    "losses": 20,
+    "total": 20
+  },
+  "a09": {
+    "wins": 0,
+    "losses": 20,
+    "total": 20
+  }
+}

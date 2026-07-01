@@ -1,0 +1,1322 @@
+{
+  "trades": [
+    {
+      "agent_id": "boss",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.015245
+    },
+    {
+      "agent_id": "a02",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.0154188
+    },
+    {
+      "agent_id": "a03",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.015557
+    },
+    {
+      "agent_id": "a04",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.015705
+    },
+    {
+      "agent_id": "a05",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.015866
+    },
+    {
+      "agent_id": "a06",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.0160298
+    },
+    {
+      "agent_id": "a07",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.016205
+    },
+    {
+      "agent_id": "a08",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.016394
+    },
+    {
+      "agent_id": "a09",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.016622
+    },
+    {
+      "agent_id": "boss",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.0459461
+    },
+    {
+      "agent_id": "a02",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.046249
+    },
+    {
+      "agent_id": "a03",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.046539
+    },
+    {
+      "agent_id": "a04",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.046834
+    },
+    {
+      "agent_id": "a05",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.047143
+    },
+    {
+      "agent_id": "a06",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.0474188
+    },
+    {
+      "agent_id": "a07",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.047719
+    },
+    {
+      "agent_id": "a08",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.04803
+    },
+    {
+      "agent_id": "a09",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.048332
+    },
+    {
+      "agent_id": "boss",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.077388
+    },
+    {
+      "agent_id": "a02",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.07775
+    },
+    {
+      "agent_id": "a03",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.07812
+    },
+    {
+      "agent_id": "a04",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.0784798
+    },
+    {
+      "agent_id": "a05",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.0788422
+    },
+    {
+      "agent_id": "a06",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.079263
+    },
+    {
+      "agent_id": "a07",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.079655
+    },
+    {
+      "agent_id": "a08",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.080037
+    },
+    {
+      "agent_id": "a09",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.0804129
+    },
+    {
+      "agent_id": "boss",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.110158
+    },
+    {
+      "agent_id": "a02",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.110605
+    },
+    {
+      "agent_id": "a03",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.111052
+    },
+    {
+      "agent_id": "a04",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.1115031
+    },
+    {
+      "agent_id": "a05",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.112085
+    },
+    {
+      "agent_id": "a06",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.1125388
+    },
+    {
+      "agent_id": "a07",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.112983
+    },
+    {
+      "agent_id": "a08",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.1134121
+    },
+    {
+      "agent_id": "a09",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.113842
+    },
+    {
+      "agent_id": "boss",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.1438541
+    },
+    {
+      "agent_id": "a02",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.1444108
+    },
+    {
+      "agent_id": "a03",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.144958
+    },
+    {
+      "agent_id": "a04",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.145519
+    },
+    {
+      "agent_id": "a05",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.146158
+    },
+    {
+      "agent_id": "a06",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.14675
+    },
+    {
+      "agent_id": "a07",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.147341
+    },
+    {
+      "agent_id": "a08",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.147912
+    },
+    {
+      "agent_id": "a09",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939600.1484642
+    },
+    {
+      "agent_id": "boss",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.2717881
+    },
+    {
+      "agent_id": "a02",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.27227
+    },
+    {
+      "agent_id": "a03",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.272713
+    },
+    {
+      "agent_id": "a04",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.2731378
+    },
+    {
+      "agent_id": "a05",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.273895
+    },
+    {
+      "agent_id": "a06",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.274336
+    },
+    {
+      "agent_id": "a07",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.2748008
+    },
+    {
+      "agent_id": "a08",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.275278
+    },
+    {
+      "agent_id": "a09",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.275761
+    },
+    {
+      "agent_id": "boss",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.305674
+    },
+    {
+      "agent_id": "a02",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.3062541
+    },
+    {
+      "agent_id": "a03",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.3068101
+    },
+    {
+      "agent_id": "a04",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.3075168
+    },
+    {
+      "agent_id": "a05",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.308071
+    },
+    {
+      "agent_id": "a06",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.308628
+    },
+    {
+      "agent_id": "a07",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.309263
+    },
+    {
+      "agent_id": "a08",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.3098361
+    },
+    {
+      "agent_id": "a09",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.310843
+    },
+    {
+      "agent_id": "boss",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.341442
+    },
+    {
+      "agent_id": "a02",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.342089
+    },
+    {
+      "agent_id": "a03",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.342707
+    },
+    {
+      "agent_id": "a04",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.343322
+    },
+    {
+      "agent_id": "a05",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.3439412
+    },
+    {
+      "agent_id": "a06",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.344578
+    },
+    {
+      "agent_id": "a07",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.345224
+    },
+    {
+      "agent_id": "a08",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.345972
+    },
+    {
+      "agent_id": "a09",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.346735
+    },
+    {
+      "agent_id": "boss",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.3762848
+    },
+    {
+      "agent_id": "a02",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.377014
+    },
+    {
+      "agent_id": "a03",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.377717
+    },
+    {
+      "agent_id": "a04",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.37844
+    },
+    {
+      "agent_id": "a05",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.379141
+    },
+    {
+      "agent_id": "a06",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.379837
+    },
+    {
+      "agent_id": "a07",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.380555
+    },
+    {
+      "agent_id": "a08",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.381263
+    },
+    {
+      "agent_id": "a09",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.3819919
+    },
+    {
+      "agent_id": "boss",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.410392
+    },
+    {
+      "agent_id": "a02",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.411187
+    },
+    {
+      "agent_id": "a03",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.41194
+    },
+    {
+      "agent_id": "a04",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.412755
+    },
+    {
+      "agent_id": "a05",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.413525
+    },
+    {
+      "agent_id": "a06",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.4142709
+    },
+    {
+      "agent_id": "a07",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.415285
+    },
+    {
+      "agent_id": "a08",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.416065
+    },
+    {
+      "agent_id": "a09",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939609.4168189
+    },
+    {
+      "agent_id": "boss",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.224203
+    },
+    {
+      "agent_id": "a02",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.225333
+    },
+    {
+      "agent_id": "a03",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.226057
+    },
+    {
+      "agent_id": "a04",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.227305
+    },
+    {
+      "agent_id": "a05",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.230709
+    },
+    {
+      "agent_id": "a06",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.231576
+    },
+    {
+      "agent_id": "a07",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.2322738
+    },
+    {
+      "agent_id": "a08",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.232975
+    },
+    {
+      "agent_id": "a09",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.233639
+    },
+    {
+      "agent_id": "boss",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.263991
+    },
+    {
+      "agent_id": "a02",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.264742
+    },
+    {
+      "agent_id": "a03",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.265471
+    },
+    {
+      "agent_id": "a04",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.2662241
+    },
+    {
+      "agent_id": "a05",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.266964
+    },
+    {
+      "agent_id": "a06",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.26773
+    },
+    {
+      "agent_id": "a07",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.268476
+    },
+    {
+      "agent_id": "a08",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.269237
+    },
+    {
+      "agent_id": "a09",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.2699971
+    },
+    {
+      "agent_id": "boss",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.301882
+    },
+    {
+      "agent_id": "a02",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.302868
+    },
+    {
+      "agent_id": "a03",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.303709
+    },
+    {
+      "agent_id": "a04",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.304703
+    },
+    {
+      "agent_id": "a05",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.305892
+    },
+    {
+      "agent_id": "a06",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.306863
+    },
+    {
+      "agent_id": "a07",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.307853
+    },
+    {
+      "agent_id": "a08",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.308885
+    },
+    {
+      "agent_id": "a09",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.3097441
+    },
+    {
+      "agent_id": "boss",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.338986
+    },
+    {
+      "agent_id": "a02",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.339988
+    },
+    {
+      "agent_id": "a03",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.340928
+    },
+    {
+      "agent_id": "a04",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.341855
+    },
+    {
+      "agent_id": "a05",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.342923
+    },
+    {
+      "agent_id": "a06",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.3438468
+    },
+    {
+      "agent_id": "a07",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.344795
+    },
+    {
+      "agent_id": "a08",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.3458629
+    },
+    {
+      "agent_id": "a09",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.346813
+    },
+    {
+      "agent_id": "boss",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.379898
+    },
+    {
+      "agent_id": "a02",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.381025
+    },
+    {
+      "agent_id": "a03",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.382179
+    },
+    {
+      "agent_id": "a04",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.383134
+    },
+    {
+      "agent_id": "a05",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.384371
+    },
+    {
+      "agent_id": "a06",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.38539
+    },
+    {
+      "agent_id": "a07",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.386435
+    },
+    {
+      "agent_id": "a08",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.387489
+    },
+    {
+      "agent_id": "a09",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939644.388594
+    },
+    {
+      "agent_id": "boss",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.6276438
+    },
+    {
+      "agent_id": "a02",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.62884
+    },
+    {
+      "agent_id": "a03",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.62979
+    },
+    {
+      "agent_id": "a04",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.630856
+    },
+    {
+      "agent_id": "a05",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.632017
+    },
+    {
+      "agent_id": "a06",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.6331038
+    },
+    {
+      "agent_id": "a07",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.6343
+    },
+    {
+      "agent_id": "a08",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.635533
+    },
+    {
+      "agent_id": "a09",
+      "trade": "buy_call",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.636725
+    },
+    {
+      "agent_id": "boss",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.6655831
+    },
+    {
+      "agent_id": "a02",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.666668
+    },
+    {
+      "agent_id": "a03",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.667701
+    },
+    {
+      "agent_id": "a04",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.6689322
+    },
+    {
+      "agent_id": "a05",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.669968
+    },
+    {
+      "agent_id": "a06",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.6709938
+    },
+    {
+      "agent_id": "a07",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.671987
+    },
+    {
+      "agent_id": "a08",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.672977
+    },
+    {
+      "agent_id": "a09",
+      "trade": "buy_put",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.674044
+    },
+    {
+      "agent_id": "boss",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.706986
+    },
+    {
+      "agent_id": "a02",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.708145
+    },
+    {
+      "agent_id": "a03",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.709357
+    },
+    {
+      "agent_id": "a04",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.71052
+    },
+    {
+      "agent_id": "a05",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.711616
+    },
+    {
+      "agent_id": "a06",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.712693
+    },
+    {
+      "agent_id": "a07",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.7137651
+    },
+    {
+      "agent_id": "a08",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.715007
+    },
+    {
+      "agent_id": "a09",
+      "trade": "strangle",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.7161238
+    },
+    {
+      "agent_id": "boss",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.74879
+    },
+    {
+      "agent_id": "a02",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.749887
+    },
+    {
+      "agent_id": "a03",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.75089
+    },
+    {
+      "agent_id": "a04",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.751955
+    },
+    {
+      "agent_id": "a05",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.752948
+    },
+    {
+      "agent_id": "a06",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.754046
+    },
+    {
+      "agent_id": "a07",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.755578
+    },
+    {
+      "agent_id": "a08",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.757401
+    },
+    {
+      "agent_id": "a09",
+      "trade": "iron_condor",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.758585
+    },
+    {
+      "agent_id": "boss",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.789834
+    },
+    {
+      "agent_id": "a02",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.791172
+    },
+    {
+      "agent_id": "a03",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.79262
+    },
+    {
+      "agent_id": "a04",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.793909
+    },
+    {
+      "agent_id": "a05",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.795157
+    },
+    {
+      "agent_id": "a06",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.796392
+    },
+    {
+      "agent_id": "a07",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.797736
+    },
+    {
+      "agent_id": "a08",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.7992058
+    },
+    {
+      "agent_id": "a09",
+      "trade": "buy_call_spread",
+      "outcome": "LOSS",
+      "pnl": -4269.0,
+      "ts": 1782939774.800843
+    }
+  ],
+  "weights": {
+    "boss": 0.2,
+    "a02": 0.2,
+    "a03": 0.2,
+    "a04": 0.2,
+    "a05": 0.2,
+    "a06": 0.2,
+    "a07": 0.2,
+    "a08": 0.2,
+    "a09": 0.2
+  },
+  "stats": {
+    "boss": {
+      "wins": 0,
+      "losses": 20,
+      "total": 20
+    },
+    "a02": {
+      "wins": 0,
+      "losses": 20,
+      "total": 20
+    },
+    "a03": {
+      "wins": 0,
+      "losses": 20,
+      "total": 20
+    },
+    "a04": {
+      "wins": 0,
+      "losses": 20,
+      "total": 20
+    },
+    "a05": {
+      "wins": 0,
+      "losses": 20,
+      "total": 20
+    },
+    "a06": {
+      "wins": 0,
+      "losses": 20,
+      "total": 20
+    },
+    "a07": {
+      "wins": 0,
+      "losses": 20,
+      "total": 20
+    },
+    "a08": {
+      "wins": 0,
+      "losses": 20,
+      "total": 20
+    },
+    "a09": {
+      "wins": 0,
+      "losses": 20,
+      "total": 20
+    }
+  }
+}
